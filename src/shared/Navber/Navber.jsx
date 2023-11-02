@@ -10,10 +10,12 @@ const Navber = () => {
       logOut()
       .then(() => {
           alert('log out success')
+         
       })
       .catch(error => {
         console.log(error.message);
       })
+      console.log(user);
     }
 
     const navLinks = <>
